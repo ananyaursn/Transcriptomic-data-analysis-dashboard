@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: transcriptomicviz-adaptive
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /
