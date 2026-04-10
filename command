@@ -1,0 +1,1 @@
+streamlit run adaptive_streamlit_app.py
